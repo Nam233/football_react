@@ -1,0 +1,49 @@
+/*重置样式*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+/*header*/
+header{
+	height: 13.90vw;
+	background: #0cc440;
+	padding:3.43vw 30.66vw;
+	box-sizing: border-box;		
+}
+header li{
+	width: 19.06vw;
+	height: 7.81vw;
+	float: left;
+	line-height: 7.81vw;
+	text-align: center;
+	font-size: 3.75vw;
+	background: #3dd066;
+	list-style: none;
+	border: 0;	
+}
+header li :nth-child(1) a{
+	border-top-left-radius:3.90vw;
+	border-bottom-left-radius: 3.90vw;
+}
+header li :nth-child(2) a{
+	border-top-right-radius:3.90vw;
+	border-bottom-right-radius: 3.90vw;
+}
+header li a{
+	color: #a6e8b8;
+	display: inline-block;
+	width: 19.06vw;
+	border:0;
+}
+.index_active{
+	background: #63d985 !important;
+	text-decoration: none !important;
+	color: white !important;
+}

@@ -1,0 +1,33 @@
+.gilrs{
+	flex: 1;
+	overflow: hidden;
+	overflow: auto;
+}
+.gilrs ul{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.gilrs ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 1.56vw;
+	width: 50%;
+	height:58.43vw;
+	border: 1px solid #CCCCCC;
+}
+
+.gilrs ul li img{
+	width: 49.21vw;
+	height: 49.21vw;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+.gilrs ul li p{
+	margin-left: 3.75vw;
+	height: 9.06vw;
+	line-height: 9.06vw;
+	font-size: 4.06vw;
+
+}

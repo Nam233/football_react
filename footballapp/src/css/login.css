@@ -1,0 +1,44 @@
+/*重置样式*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+/*header*/
+.form_header{
+	height: 14.0625vw;
+	background: #0cc440;
+	line-height: 14.0625vw;
+	text-align: center;
+	font-size: 5.15vw;
+
+}
+.container{
+	flex: 1;
+}
+.container input{
+	border:0;
+	box-shadow: 0 0 0;
+	border-bottom: 1px solid #7f7f7f;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 0;
+}
+.container p{
+	color:#ccc;
+}
+.container p span{
+	color:#a2ebb4;
+}
+.container .btn{
+	background: #0cc440;
+	outline: none;
+	height:12.56vw ;
+	margin-top: 12.5vw;
+}

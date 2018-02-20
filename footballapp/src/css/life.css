@@ -1,0 +1,31 @@
+.life{
+	flex: 1;
+	overflow: hidden;
+	overflow: auto;
+}
+.life ul{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.life ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 1.56vw;
+	width: 50%;
+	height:63.43vw;
+	border: 1px solid #CCCCCC;
+}
+
+.life ul li img{
+	width: 49.21vw;
+	height: 49.21vw;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+.life ul li p{
+	margin-left: 3.75vw;
+	font-size: 4.06vw;
+
+}
