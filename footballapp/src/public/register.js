@@ -29,7 +29,7 @@ class Register extends Component{
 				  </div>
 				  <div className="form-group">
 				   
-				    <input type="text" value={this.state.username} onChange={(e)=>{this.handleUserName(e)}}  className="form-control" id="exampleInputPassword1" placeholder="昵称" />
+				    <input type="text" value={this.state.username} onChange={(e)=>{this.handleUserName(e)}}  className="form-control" id="exampleInputPassword2" placeholder="昵称" />
 				  </div>
 				  <button onClick={this.submit} className="btn btn-lg btn-block btn-success">提交</button>
 

@@ -23,7 +23,6 @@ class hot extends Component{
 		                    <Route path="/app/index/hot/life" component={life}></Route>
 		                    <Route path="/app/index/hot/gilrs" component={gilrs}></Route>
 		                     <Redirect path="/app/index/hot" to={{pathname: '/app/index/hot/live'}} />
-
 				        </Switch> 
 				</div>)
 		}

@@ -43,8 +43,6 @@ class Login extends Component{
 	 	  	)
 	}
 	handleUserId(e){
-		var id=window.location.search.slice(1).slice(0,8);
-	 	console.log(id);
 		this.setState({
 			userId:e.target.value
 		})
